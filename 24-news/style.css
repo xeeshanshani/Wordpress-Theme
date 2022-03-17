@@ -1,0 +1,22 @@
+/*
+Theme Name: 24 News
+Theme URI: http://zeeshanamjad.me/
+Author: Zeeshan Amjad
+version: 1.0
+*/
+.wp-pagenavi a, .wp-pagenavi span {
+	padding: 5px; margin-right: 10px;
+	font-size: 15px; color: #03719c; text-decoration: none;
+	border: 3px solid #ccc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+	}
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	background: #03719c;
+	color: #fff;
+	border: 3px solid #AFAFAF;
+	}
+.wp-pagenavi span.current { font-weight: bold; }
+
+a, a:hover {
+	color: yellow;
+	margin-right: 45px;
+}
